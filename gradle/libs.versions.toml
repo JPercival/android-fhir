@@ -29,7 +29,7 @@ kotlin-stdlib = "1.9.22"
 kotlin-test = "1.9.22"
 kotlinx-coroutines = "1.8.1"
 logback-android = "3.0.0"
-opencds-cqf-fhir = "3.8.0"
+opencds-cqf-fhir = "3.16.0-ANDROID-34"
 truth = "1.1.5"
 
 [libraries]

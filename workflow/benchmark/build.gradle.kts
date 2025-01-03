@@ -48,7 +48,7 @@ android {
     isCoreLibraryDesugaringEnabled = true
   }
 
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
 }
 
 afterEvaluate { configureFirebaseTestLabForMicroBenchmark() }

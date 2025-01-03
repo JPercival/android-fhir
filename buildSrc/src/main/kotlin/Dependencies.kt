@@ -1,5 +1,5 @@
 /*
- * Copyright 2023-2024 Google LLC
+ * Copyright 2023-2025 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -129,17 +129,17 @@ object Dependencies {
     const val fhirUcum = "1.0.3"
     const val guava = "32.1.3-android"
 
-    const val hapiFhir = "6.8.0"
-    const val hapiFhirCore = "6.0.22"
+    const val hapiFhir = "7.6.0-ANDROID-34"
+    const val hapiFhirCore = "6.4.0"
 
     const val http = "4.11.0"
 
     // Maximum Jackson libraries (excluding core) version that supports Android API Level 24:
     // https://github.com/FasterXML/jackson-databind/issues/3658
-    const val jackson = "2.13.5"
+    const val jackson = "2.17.1"
 
     // Maximum Jackson Core library version that supports Android API Level 24:
-    const val jacksonCore = "2.15.2"
+    const val jacksonCore = "2.17.1"
 
     const val jsonToolsPatch = "1.13"
     const val jsonAssert = "1.5.1"

@@ -49,7 +49,7 @@ android {
   configureJacocoTestOptions()
 
   testOptions { animationsDisabled = true }
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
 }
 
 configurations { all { removeIncompatibleDependencies() } }

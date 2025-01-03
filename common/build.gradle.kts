@@ -16,7 +16,7 @@ android {
   compileSdk = Sdk.COMPILE_SDK
   defaultConfig { minSdk = Sdk.MIN_SDK }
   configureJacocoTestOptions()
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
 }
 
 configurations { all { removeIncompatibleDependencies() } }

@@ -6,6 +6,7 @@ repositories {
   google()
   gradlePluginPortal()
   mavenCentral()
+  mavenLocal()
 }
 
 dependencies {
@@ -18,6 +19,6 @@ dependencies {
 
   implementation("com.spotify.ruler:ruler-gradle-plugin:1.4.0")
 
-  implementation("ca.uhn.hapi.fhir:hapi-fhir-structures-r4:6.10.0")
+  implementation("ca.uhn.hapi.fhir:hapi-fhir-structures-r4:7.6.0-ANDROID-34")
   implementation("com.squareup:kotlinpoet:1.17.0")
 }

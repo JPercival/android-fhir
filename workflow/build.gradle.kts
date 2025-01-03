@@ -69,7 +69,7 @@ android {
     )
   }
   configureJacocoTestOptions()
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
   compileOptions { isCoreLibraryDesugaringEnabled = true }
 }
 

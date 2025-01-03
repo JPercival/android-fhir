@@ -9,7 +9,7 @@ android {
   namespace = "com.google.android.fhir.workflow.testing"
   compileSdk = Sdk.COMPILE_SDK
   defaultConfig { minSdk = Sdk.MIN_SDK }
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
 }
 
 configurations { all { removeIncompatibleDependencies() } }

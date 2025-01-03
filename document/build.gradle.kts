@@ -29,7 +29,7 @@ android {
 
   sourceSets { getByName("test").apply { resources.setSrcDirs(listOf("test-data")) } }
 
-  kotlin { jvmToolchain(11) }
+  kotlin { jvmToolchain(17) }
 }
 
 dependencies {
